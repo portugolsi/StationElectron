@@ -28,7 +28,7 @@ a{
 }
 
 div.barra{ 
-    display: flex,;
+    display: flex;
     align-items: center;
     background-color: linear-gradient(#1b2838,#171a21);
     height: 48px;
@@ -71,7 +71,7 @@ div.barra-menu a {
 div.barra-menu a:hover { 
 
     color: #66c0f4;
-    cursor: pointer
+    cursor: pointer;
     
 }
 
@@ -82,6 +82,55 @@ div.barra-botoes button{
     color: #c7d5e0;
     height: 32px;
     width: 32px;
+    -webkit-app-region: no-drag;
 
 
+}
+
+div.barra-botoes button:hover {
+
+    background-color: #66c0f4;
+    color: #171a21;
+    cursor: pointer;
+
+}
+
+
+div.principal{
+    padding: 32px 0;
+}
+
+
+
+div.principal-ofertas{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 880px;
+
+}
+
+div.oferta div {
+    color: #c7c7c7;
+}
+
+div.oferta div span{
+    background-color: #4c6b22;
+    color: #BEEE10;
+    padding: 0 8px;
+}
+
+div.oferta div a{
+    background-color: #2a475e;
+    color: #c7d5e0;
+    padding: 0 8px;
+}
+
+div.ofeta img {
+    height: 24px;
+    object-fit: cover;
+    width: 24px;
 }
